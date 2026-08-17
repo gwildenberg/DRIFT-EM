@@ -489,6 +489,11 @@ Peak memory for a 14434 x 14497 overview with 186 x 596 px sections is roughly
 all optimiser patches are built before the worker pool starts, so patch memory
 is independent of worker count.
 
+## ACKNOWLEDGEMENTS
+
+Initial implementation by Kevin Boergens. Substantially rewritten and extended
+by Gregg Wildenberg.
+
 ## LICENSE
 
 MIT. See LICENSE.
