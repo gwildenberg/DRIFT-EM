@@ -1,4 +1,19 @@
-lxml
-numpy
-Pillow
-networkx
+# Versions this pipeline has been tested against.
+# opencv-python validated on both 4.13.0 and 5.0.0: the geometry calls this
+# code depends on produce byte-identical .magc output across that major
+# version bump, so there is no upper cap.
+
+numpy>=1.24,<3
+scipy>=1.10
+opencv-python>=4.8
+Pillow>=9
+
+# detect_rectangles.py — contour spreadsheet
+pandas>=2.0
+openpyxl>=3.1
+
+# generate_and_fuse.py — a5proj XML + stage path optimisation
+lxml>=5
+networkx>=3
+
+# Tested interpreters: Python 3.9.13 and 3.12.3

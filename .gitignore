@@ -1,5 +1,31 @@
-*.xml
-*.tif
+# Virtual environments
+.venv/
+venv/
+.DRIFT/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor / tooling local config
+.claude/
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Data and generated output
 *.magc
 *.a5proj
+*.tif
+*.tiff
 *.png
+*.jpg
+*.xml
+*.xlsx
+stats/
+debug_*
+
+# ...but the ATLAS template is source, not output
+!atlas_template/blank_template.a5proj

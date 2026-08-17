@@ -1,0 +1,17 @@
+# Example custom section outline for --section-shape custom --shape-file
+#
+# One vertex per line, "x y" or "x,y". Blank lines and # comments ignored.
+# Units are arbitrary: the polygon is recentred on its bounding-box centre and
+# rescaled so its bounding box is exactly --section-width x --section-height.
+# That means you can trace an outline in ImageJ at any magnification and reuse
+# it at any section size.
+#
+# Order vertices consistently around the outline (either winding is fine).
+# The long axis should run along Y to match --section-height.
+#
+# This example: a block face with one corner trimmed off.
+0    0
+40   0
+40   80
+28   110
+0    110
