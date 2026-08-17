@@ -1,5 +1,7 @@
 # DRIFT-EM
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21972788.svg)](https://doi.org/10.5281/zenodo.21972788)
+
 Locate ultrathin sections randomly placed on a wafer, draw an imaging ROI
 around each one, and emit a project file for ZEISS ATLAS.
 
